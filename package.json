@@ -9,16 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "@clerk/clerk-react": "^5.25.5",
+    "@clerk/nextjs": "^6.12.12",
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.5.0",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "daisyui": "^5.0.9",
+    "express": "^4.21.2",
+    "framer-motion": "^11.18.2",
+    "gsap": "^3.12.7",
+    "matter-js": "^0.20.0",
+    "next": "^15.2.4",
+    "next-auth": "^4.24.11",
+    "pg": "^8.14.1",
+    "postcss": "^8.5.3",
+    "prisma": "^6.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "web-alip": "file:"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4.0.17",
+    "@types/matter-js": "^0.19.8",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4.0.17",
+    "typescript": "^5"
   }
 }
