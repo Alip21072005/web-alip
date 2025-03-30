@@ -11,7 +11,7 @@ const Registration = () => {
     const [error, setError] = useState<string | null>(null);
     const [passwordVisible, setPasswordVisible] = useState<boolean>(false);
     const [confirmPasswordVisible, setConfirmPasswordVisible] = useState<boolean>(false);
-    const [loading, setLoading] = useState<boolean>(false); // New loading state
+    const [loading, setLoading] = useState<boolean>(false);
     const router = useRouter();
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -22,8 +22,8 @@ const Registration = () => {
             return;
         }
 
-        setError(null); // Reset error if there is no mismatch
-        setLoading(true); // Start loading while submitting
+        setError(null);
+        setLoading(true);
 
         // Replace with your actual registration API
         const res = await signIn("credentials", {
@@ -32,8 +32,7 @@ const Registration = () => {
             password,
         });
 
-        setLoading(false); // Stop loading after receiving response
-
+        setLoading(false);
         if (res?.error) {
             setError("Registration failed. Try again later.");
         } else {
