@@ -13,7 +13,7 @@ export default function Home() {
           <div className="mt-30 font-sans text-4xl font-bold text-white max-w-5xl lg:text-7xl md:text-6xl">
             Official Website Of{" "}
             <TrueFocus
-              sentence="DE CODE SECRETARY"
+              sentence="DE CODE"
               manualMode={false}
               blurAmount={5}
               borderColor="blue"
