@@ -17,7 +17,7 @@ const skills = [
   'Git & GitHub',
 ]
 
-export default function SkillsPage() {
+export default function Skills() {
   return (
     <main className="min-h-screen px-6 pt-28 pb-16 bg-white dark:bg-black transition-colors">
       <motion.h1

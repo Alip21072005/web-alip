@@ -23,7 +23,7 @@ const affiliates = [
   },
 ]
 
-export default function AffiliatePage() {
+export default function Affiliate() {
   return (
     <main className="min-h-screen px-6 pt-28 pb-16 bg-white dark:bg-black transition-colors">
       <motion.h1

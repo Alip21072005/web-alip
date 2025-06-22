@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 
-export default function ContactPage() {
+export default function Contact() {
   return (
     <main className="min-h-screen px-6 pt-28 pb-16 bg-white dark:bg-black transition-colors">
       <motion.h1
